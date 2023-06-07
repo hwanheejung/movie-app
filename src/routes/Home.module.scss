@@ -1,0 +1,16 @@
+.wrapper{
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.container{
+    width: 100%;
+    background-color: aliceblue;
+    position: relative;
+
+}
+.contents{
+    padding: 0 40px;     
+    position: absolute;
+    top: 70px;  
+}

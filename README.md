@@ -1,3 +1,16 @@
+# Used Package
+
+<p>
+    <img src="https://img.shields.io/badge/React-^18.2.0-blue?logo=React">
+    <img src="https://img.shields.io/badge/react_dom-^18.2.0-blueviolet?logo=ReactOS">
+    <img src="https://img.shields.io/badge/react_router_dom-^6.11.2-critical?logo=React Table">
+    <img src="https://img.shields.io/badge/recoil-^0.7.7-aaa?logo=Coil">
+    <img src="https://img.shields.io/badge/scss-^1.62.1-cc6699?logo=sass">
+    <!-- <img src="https://img.shields.io/badge/node.js-^16.13.2-green?logo=Node.js"> -->
+</p>
+
+<br/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
