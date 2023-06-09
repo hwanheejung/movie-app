@@ -10,7 +10,6 @@ function Slider({ API_byGroup }) {
   const [cnt, setCnt] = useState(1);
   const [rArrow, setrArrow] = useState("block");
   const [lArrow, setlArrow] = useState("none");
-  console.log("curr cnt:", cnt);
 
   const getMovies = async () => {
     const json = await (await fetch(API_byGroup)).json();

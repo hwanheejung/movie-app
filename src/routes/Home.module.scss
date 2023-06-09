@@ -8,17 +8,15 @@ $black: #221f1f;
   place-items: center;
   .container {
     width: 100%;
-    //   background-color: aliceblue;
-    position: relative;
+    background-color: $black;
+    display: grid;
+    place-items: center;
+
     .contents {
-      padding: 0 0 40px 80px;
-
-      position: absolute;
-      top: 70px;
+      max-width: 1440px;
+      padding: 70px 0 40px 80px;
       width: 100%;
-      background-color: $black;
       overflow: hidden;
-
       .title {
         margin-top: 40px;
         color: $white;
