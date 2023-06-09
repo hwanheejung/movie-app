@@ -11,6 +11,15 @@
 
 <br/>
 
+# TODO LIST
+
+- [] Nav bar categories to dropdown
+- [] detail page of each movie
+- [] design page of each category
+- [] Footer contents
+
+<br/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

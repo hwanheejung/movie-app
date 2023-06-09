@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
 import Slider from "../components/Slider";
-import Movie from "../components/Movie";
-import Loading from "../components/Loading";
 
 import styles from "./Home.module.scss";
 import { Group_key_arr, Group_obj } from "../atom/NavList";
@@ -48,6 +46,7 @@ function Home() {
           })}
         </div>
       </div>
+      <footer className={styles.footer}>Copyright</footer>
     </div>
   );
 }
