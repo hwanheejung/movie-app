@@ -9,6 +9,8 @@ $black: #221f1f;
   .container {
     width: 100%;
     background-color: $black;
+    display: grid;
+    place-items: center;
     .contents {
       max-width: 1440px;
       padding: 70px 0 40px 80px;
