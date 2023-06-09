@@ -1,10 +1,43 @@
+$white: #f5f5f1;
+$red: #b81d24;
+$black: #221f1f;
+
 .container {
   width: 100%;
-  //   height: 500px;
-  //   display: flex;
+  position: relative;
 }
 
 .sliderWrapper {
   display: flex;
   gap: 5px;
+  transition: 0.5s ease-in-out;
+}
+
+.rightArrow,
+.leftArrow {
+  width: 80px;
+  height: 440px;
+  background-color: $black;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  font-size: 80px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 440px;
+  cursor: pointer;
+
+  color: $white;
+}
+.rightArrow {
+  right: 0;
+  &.hide {
+    display: none;
+  }
+}
+.leftArrow {
+  left: -80px;
+  &.hide {
+    display: none;
+  }
 }
